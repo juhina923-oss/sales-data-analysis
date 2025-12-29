@@ -13,7 +13,7 @@ public class SalesDataAnalysis {
             System.out.println("Best-Selling Product");
         }
         else {
-            System.out.println("Invalid sales value entered... try again");
+            System.out.println("Invalid sales value entered. Please enter 1 or 2.");
         }
     }
 }
