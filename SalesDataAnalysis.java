@@ -4,7 +4,7 @@ public class SalesDataAnalysis {
         for (int i = 1; i <= 3; i++) {
             System.out.println("Product " + i);
         }
-        System.out.println("Enter product sales level:");
+        System.out.println("please Enter product sales level:");
         int choice = input.nextInt();
         if (choice == 1) {
             System.out.println("Low Sales Product");
@@ -13,7 +13,7 @@ public class SalesDataAnalysis {
             System.out.println("Best-Selling Product");
         }
         else {
-            System.out.println("Invalid sales value entered");
+            System.out.println("Invalid sales value entered... try again");
         }
     }
 }
